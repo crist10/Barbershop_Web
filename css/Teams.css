@@ -1,0 +1,84 @@
+nav{width: 100%; background-color: white; padding-left: 20px; padding-right: 10px; margin: 0;}
+
+a.title{
+  color:black;
+  font-size: 70px;
+  text-decoration: none;
+  text-shadow:5px 5px 15px black;
+}
+.title:hover{
+  color:red;
+}
+
+html{background-color: black;}
+
+.nav-links{display:flex;list-style:none;font-size: 20px;}
+
+.nav-item a{display: inline-block; padding: 20px 40px; text-decoration: none; color:black;}
+
+.nav-item:hover{background-color: black;}
+
+.nav-item:hover a{color:red}
+
+.navbar{display:flex; justify-content:space-between; align-items: center;}
+
+.logo{display: inline-block; }
+
+.logo img{width: 100px; vertical-align: middle;}
+
+body{margin:0;}
+
+*,*::before, *::after{box-sizing: inherit; margin: 0; padding:0;}
+
+html{box-sizing: border-box;}
+
+
+.container{
+
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 40%;
+  text-align: center;
+  display:grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,200px);
+}
+.container h2{
+  margin-top: 10px;
+}
+.flex{
+  display:flex;
+  justify-content: center;
+}
+.a img{
+
+  width: 80%;
+}
+.b img{
+  width: 80%;
+}
+.c img{
+  width: 80%;
+}
+.d img{
+  margin-top: 40%;
+  width: 80%;
+}
+.e img{
+  margin-top: 40%;
+  width: 80%;
+}
+.f img{
+  margin-top: 40%;
+  width: 80%;
+}
+
+footer{
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+
+

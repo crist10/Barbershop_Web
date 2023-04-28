@@ -1,0 +1,127 @@
+nav{width: 100%; background-color: white; padding-left: 20px; padding-right: 10px; margin: 0;}
+
+a.title{
+  color:black;
+  font-size: 70px;
+  text-decoration: none;
+  text-shadow:5px 5px 15px black;
+}
+.title:hover{
+  color:red;
+}
+
+html{background-color: black;}
+
+.nav-links{display:flex;list-style:none;font-size: 20px;}
+
+.nav-item a{display: inline-block; padding: 20px 40px; text-decoration: none; color:black;}
+
+.nav-item:hover{background-color: black;}
+
+.nav-item:hover a{color:red}
+
+.navbar{display:flex; justify-content:space-between; align-items: center;}
+
+.logo{display: inline-block; }
+
+.logo img{width: 100px; vertical-align: middle;}
+
+body{margin:0;}
+
+*,*::before, *::after{box-sizing: inherit; margin: 0; padding:0;}
+
+html{box-sizing: border-box;}
+
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+
+  width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: red;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.active {background-color:gray;}
+#Images {margin-bottom:10rem;}
+
+.active {
+  background-color: #717171;
+}
+footer{
+
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+h2{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+
+
+table, tr, td, th {border-style:solid;
+  border-collapse: collapse;
+  border:3px solid red;
+  width:40%;
+  font-size: 30px;
+  margin:auto;
+  color: white;
+  text-align: center;
+  padding:10px;
+
+}
+
+caption{
+  font-size: 50px;
+}
+
+p{
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#flex{
+  display:flex;
+  justify-content: space-between;
+}
+
+
